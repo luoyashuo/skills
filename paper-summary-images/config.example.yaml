@@ -1,0 +1,11 @@
+# paper-summary-images 配置文件
+# 复制此文件到以下任一位置（优先级从高到低）：
+#   1. 环境变量 PAPER_NOTES_CONFIG 指向的路径
+#   2. ~/.paper-reading-notes/config.yaml
+#   3. ./.paper-reading-notes.yaml（当前工作目录）
+# 注意：与 paper-reading-notes 共享同一配置文件
+
+# GPT Image 生成 API（必填）
+api_key: ""                          # 必填，缺失则无法生成图片
+api_base_url: ""      # API 基础地址（不含路径），默认 https://api.v3.cm/v1
+image_model: ""                # 图片生成模型，默认 gpt-image-2

@@ -1,0 +1,18 @@
+# paper-reading-notes 配置文件
+# 复制此文件到以下任一位置（优先级从高到低）：
+#   1. 环境变量 PAPER_NOTES_CONFIG 指向的路径
+#   2. ~/.paper-reading-notes/config.yaml
+#   3. ./.paper-reading-notes.yaml（当前工作目录）
+
+# 本地论文缓存路径（支持 ~ 展开，Windows/Linux 均可）
+# Windows 示例: C:/Users/your_name/paper_cache
+# Linux 示例:   ~/paper_cache
+cache_dir: ""
+
+# 飞书 / Lark 凭证（与 lark-cli 使用相同的 App）
+lark_app_id: ""
+lark_app_secret: ""
+lark_space_id: ""
+
+# 如需生成 AI 摘要图，请同时配置 paper-summary-images 技能
+# 见 skills/paper-summary-images/config.example.yaml
